@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    border-bottom: 1px solid #dddfe0;
+    .imgperfil{
+        margin-top: -10px;
+        width: 90x;
+        height: 90px;
+    }
+    ul{
+        display: flex;
+        li{
+            list-style: none;
+            margin-top: 8px;
+            
+            a{
+            text-decoration: none;
+            margin-left:20px;
+            color:white;
+            transition: 1s;
+            &:hover {
+              color: black;
+              margin: 20px;
+            }
+        }
+    }
+}
+}
+

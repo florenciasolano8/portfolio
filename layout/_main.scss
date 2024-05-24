@@ -1,0 +1,28 @@
+main{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .datos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    h1{
+        font-size: 60px;
+    }
+
+    .nombre{
+        margin-top:-10px;
+        font-size: 40px;
+        width:70%;
+        text-align: center;
+       }
+}
+
+
+
+   
+}
