@@ -7,5 +7,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florenciasolano8/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/florenciasolano8/portfolio/issues"
+  },
+  "homepage": "https://github.com/florenciasolano8/portfolio#readme",
   "description": ""
 }

@@ -1,14 +1,25 @@
 main{
     color:white;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    .datos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .info{
+        background-image: url("https://science.nasa.gov/wp-content/uploads/2024/05/gl12b-illustration-less-atmosphere-ac.jpg");
+        background-size: cover; /* Expande la imagen para cubrir todo el contenedor */
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%; /* Ocupa el 100% del ancho del contenedor */
+        max-width: 1500px; 
+
+    .datos{
+        margin-top: 100px;
+        margin-bottom: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
    
     h1{
         font-size: 60px;
@@ -21,8 +32,71 @@ main{
         text-align: center;
        }
 }
+}
+/*SECCION : sobre mi*/
 
+.sobremi{
+    background-color: black;
+    
+    h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
 
+    .contenidosobremi{
+      display: flex;
+      justify-content: center;
+      margin-top:60px;
+      margin-bottom:100px;
+
+      .card{
+          background-color: rgb(238, 161, 59);
+          width: 45%;
+          .card-body, .card-text{
+            background-color: rgb(233, 170, 76);
+          }
+      }
+    }
+    .marciano{
+        width: 150px;
+        margin-top: -180px !important;
+        transition: transform 0.3s ease;
+        &:hover {
+            transform: rotate(-20deg); 
+
+          }
+    }
+  }
+  /*SECCION : proyectos*/
+  .proyectos {
+    background-image: url("https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic2808032.webp?w=1450&h=816"); // Ruta de la imagen de fondo
+    background-size: cover; // Ajusta el tamaño de la imagen para cubrir todo el contenedor
+    width: 100%; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 80px; 
+
+    .card {
+        flex: 0 0 calc(33.33% - 1rem); /* Las tarjetas ocuparán un tercio del ancho del contenedor, menos el gap */
+        max-width: 260px;
+        align-items: center;
+        margin-top: 50px;
 
    
+    .card-img-top {
+        object-fit: cover;
+    }
+    .card-body{
+        .card-text{
+            color:black;
+            text-decoration: none;
+
+    }
+
+}
+}  
+}  
 }
