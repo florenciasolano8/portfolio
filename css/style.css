@@ -30,7 +30,8 @@ main {
   justify-content: center;
   align-items: center;
   /*SECCION : sobre mi*/
-  /*SECCION : proyectos*/ }
+  /*SECCION : proyectos*/
+  /*SECCION HABILIDADES*/ }
   main .info {
     background-image: url("https://science.nasa.gov/wp-content/uploads/2024/05/gl12b-illustration-less-atmosphere-ac.jpg");
     background-size: cover;
@@ -92,10 +93,34 @@ main {
       align-items: center;
       margin-top: 50px; }
       main .proyectos .card .card-img-top {
-        object-fit: cover; }
-      main .proyectos .card .card-body .card-text {
-        color: black;
-        text-decoration: none; }
+        object-fit: cover;
+        transition: 2s; }
+        main .proyectos .card .card-img-top:hover {
+          transform: rotate(360deg);
+          border-radius: 50%;
+          background-color: black; }
+      main .proyectos .card .card-body .card-text .link {
+        color: black; }
+  main .habilidades {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 100%; }
+    main .habilidades .h2 {
+      display: flex;
+      justify-content: center; }
+    main .habilidades .logos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-direction: row;
+      gap: 160px;
+      width: 100%; }
+      main .habilidades .logos .card {
+        border-radius: 80px;
+        flex: 0 0 calc(33.33% - 1rem);
+        max-width: 200px; }
 
 .preloader {
   position: fixed;
