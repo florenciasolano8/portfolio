@@ -91,7 +91,8 @@ main {
       /* Las tarjetas ocuparán un tercio del ancho del contenedor, menos el gap */
       max-width: 260px;
       align-items: center;
-      margin-top: 50px; }
+      margin-top: 50px;
+      margin-bottom: 50px; }
       main .proyectos .card .card-img-top {
         object-fit: cover;
         transition: 2s; }
@@ -107,9 +108,11 @@ main {
     flex-wrap: wrap;
     background-color: black;
     width: 100%; }
-    main .habilidades .h2 {
+    main .habilidades h2 {
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      margin-top: 20px;
+      margin-bottom: 10px; }
     main .habilidades .logos {
       display: flex;
       flex-wrap: wrap;
@@ -121,6 +124,9 @@ main {
         border-radius: 80px;
         flex: 0 0 calc(33.33% - 1rem);
         max-width: 200px; }
+  main .certificados .todosloscertificados .imgcertificados {
+    width: 450px;
+    height: 350px; }
 
 .preloader {
   position: fixed;

@@ -78,12 +78,13 @@ main{
     flex-wrap: wrap;
     justify-content: center; 
     gap: 80px; 
+    
     .card {
         flex: 0 0 calc(33.33% - 1rem); /* Las tarjetas ocuparán un tercio del ancho del contenedor, menos el gap */
         max-width: 260px;
         align-items: center;
         margin-top: 50px;
-
+        margin-bottom: 50px;
    
     .card-img-top {
         object-fit: cover;
@@ -116,9 +117,11 @@ main{
     background-color: black;
     width: 100%;
 
-    .h2{
+    h2{
         display: flex;
         justify-content: center;
+        margin-top:20px;
+        margin-bottom: 10px;
 
     }
     .logos{
@@ -128,10 +131,20 @@ main{
         flex-direction: row;
         gap:160px;
         width: 100%; 
-        .card{
+    .card{
             border-radius: 80px;
             flex: 0 0 calc(33.33% - 1rem);
             max-width: 200px;
+        }
+    }
+}
+
+.certificados{
+    /*fondo:https://science.nasa.gov/wp-content/uploads/2023/06/PIA22190_1600-jpg.webp?w=4096*/
+    .todosloscertificados{
+        .imgcertificados{
+            width: 450px;
+            height: 350px;
         }
     }
 }
