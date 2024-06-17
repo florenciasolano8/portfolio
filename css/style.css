@@ -143,6 +143,9 @@ main {
       main .certificados .todosloscertificados .imgcertificados {
         width: 450px;
         height: 350px; }
+        main .certificados .todosloscertificados .imgcertificados:hover {
+          animation: pulse;
+          animation-duration: 2s; }
 
 .preloader {
   position: fixed;
@@ -197,6 +200,7 @@ main {
 footer {
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: black; }
   footer .botonsubir .icono-subir {
     width: 50px;
@@ -204,8 +208,7 @@ footer {
     right: 25px;
     bottom: 50px; }
   footer .contacto {
-    display: flex;
-    justify-content: center; }
+    display: flex; }
     footer .contacto .contact-item {
       margin: 10px; }
 

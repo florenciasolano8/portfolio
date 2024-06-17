@@ -149,7 +149,7 @@ main{
     width: 100%;
 
 
-    .todosloscertificados{
+.todosloscertificados{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -159,6 +159,11 @@ main{
         .imgcertificados{
             width: 450px;
             height: 350px;
+               
+         &:hover { 
+            animation: pulse; 
+            animation-duration: 2s; 
+        }
         }
     }
 }

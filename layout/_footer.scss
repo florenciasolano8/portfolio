@@ -1,6 +1,7 @@
 footer{
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: black;
     
     .botonsubir{
@@ -14,9 +15,10 @@ footer{
 
     .contacto{
         display: flex;
-        justify-content: center;
-        .contact-item{
+
+    .contact-item{
         margin: 10px;
+        
     }
 }
 }   
