@@ -131,6 +131,8 @@ main{
         flex-direction: row;
         gap:160px;
         width: 100%; 
+        margin-bottom: 50px;
+
     .card{
             border-radius: 80px;
             flex: 0 0 calc(33.33% - 1rem);
@@ -140,8 +142,20 @@ main{
 }
 
 .certificados{
-    /*fondo:https://science.nasa.gov/wp-content/uploads/2023/06/PIA22190_1600-jpg.webp?w=4096*/
+    background: rgb(58,71,180); /* Color sólido de respaldo */
+    background: linear-gradient(90deg, rgba(58,71,180,1) 20%, rgba(35,28,88,1) 50%, rgba(117,67,167,1) 96%); /* Gradiente lineal */
+    background-size: cover; // Ajusta el tamaño de la imagen para cubrir todo el contenedor
+    background-position: center;
+    width: 100%;
+
+
     .todosloscertificados{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap:50px;
         .imgcertificados{
             width: 450px;
             height: 350px;

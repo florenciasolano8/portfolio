@@ -1,0 +1,23 @@
+footer{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    
+    .botonsubir{
+        .icono-subir{
+            width: 50px;
+            position: fixed;
+            right: 25px;
+            bottom: 50px;
+        }
+    }
+
+    .contacto{
+        display: flex;
+        justify-content: center;
+        .contact-item{
+        margin: 10px;
+    }
+}
+}   
+
