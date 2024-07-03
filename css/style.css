@@ -22,6 +22,8 @@ header {
         header ul li a:hover {
           color: black;
           margin: 20px; }
+  header .pos-f-t {
+    display: none; }
 
 main {
   color: white;
@@ -211,5 +213,30 @@ footer {
     display: flex; }
     footer .contacto .contact-item {
       margin: 10px; }
+
+@media screen and (max-width: 767px) {
+  header ul li a {
+    display: none; }
+
+  .menuheader {
+    background-color: red; }
+    .menuheader .container-fluid {
+      display: flex;
+      justify-content: flex-end; }
+
+  /*MAIN
+  main{
+      .info{
+          .datos{
+              .h1{
+                  .nombre{
+                      width: 18px !important;
+                  }
+              }
+          }
+      }
+  
+  }
+  }*/ }
 
 /*# sourceMappingURL=style.css.map */
