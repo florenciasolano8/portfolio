@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 750px) {
     header{
 
     ul{
@@ -12,28 +12,34 @@
 }
 
 .menuheader {
-    background-color: red;
-    .container-fluid {
     display: flex;
     justify-content: flex-end;
-  }
-  
-
-}
-
-
-/*MAIN
-main{
-    .info{
-        .datos{
-            .h1{
-                .nombre{
-                    width: 18px !important;
-                }
-            }
+    width: 100%;
+    .navbar{
+        display: flex;
+        justify-content: flex-end;
+        width: auto;
+        margin-left: 25px;
+    .container-fluid {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .navbar-toggler{
+            max-width: 55px;
+            margin-right: 20px;
+            background-color: rgba(240, 177, 60, 0.897);
         }
+  }
+  .navbar-nav{
+
+    .nav-item{
+        margin-left: 20px;
     }
+  }
+}
 
 }
-}*/
+
+
+
 }
