@@ -87,11 +87,11 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 80px; }
+    gap: 70px; }
     main .proyectos .card {
       flex: 0 0 calc(33.33% - 1rem);
       /* Las tarjetas ocuparán un tercio del ancho del contenedor, menos el gap */
-      max-width: 260px;
+      max-width: 280px;
       align-items: center;
       margin-top: 50px;
       margin-bottom: 50px; }
@@ -126,7 +126,7 @@ main {
       main .habilidades .logos .card {
         border-radius: 80px;
         flex: 0 0 calc(33.33% - 1rem);
-        max-width: 200px; }
+        max-width: 210px; }
   main .certificados {
     background: #3a47b4;
     /* Color sólido de respaldo */

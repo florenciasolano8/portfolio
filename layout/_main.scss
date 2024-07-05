@@ -71,17 +71,18 @@ main{
   }
   /*SECCION : proyectos*/
   .proyectos {
-    background-image: url("https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic2808032.webp?w=1450&h=816"); // Ruta de la imagen de fondo
-    background-size: cover; // Ajusta el tamaño de la imagen para cubrir todo el contenedor
-    width: 100%; 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; 
-    gap: 80px; 
+      background-image: url("https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic2808032.webp?w=1450&h=816"); // Ruta de la imagen de fondo
+      background-size: cover; // Ajusta el tamaño de la imagen para cubrir todo el contenedor
+      width: 100%; 
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; 
+      gap: 70px; 
+    
     
     .card {
         flex: 0 0 calc(33.33% - 1rem); /* Las tarjetas ocuparán un tercio del ancho del contenedor, menos el gap */
-        max-width: 260px;
+        max-width: 280px;
         align-items: center;
         margin-top: 50px;
         margin-bottom: 50px;
@@ -107,8 +108,8 @@ main{
 
   }
  }  
-}  
 
+}
 /*SECCION HABILIDADES*/
 .habilidades{
     display: flex;
@@ -136,7 +137,7 @@ main{
     .card{
             border-radius: 80px;
             flex: 0 0 calc(33.33% - 1rem);
-            max-width: 200px;
+            max-width: 210px;
         }
     }
 }
