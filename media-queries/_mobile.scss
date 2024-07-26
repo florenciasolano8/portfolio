@@ -40,6 +40,34 @@
 
 }
 
+main{
+    .sobremi{
+        background-color: black;
+        width: 100%;
+        .contenidosobremi{
+            .card{
+                width: 350px;
+            }
+        }
+        .marciano{
+            width: 100px;
+            margin-left: 20px;
+            transition: transform 0.3s ease;
+            &:hover {
+                transform: rotate(-20deg); 
+    
+              }
+        }
+    }
+}
 
+/*
+.habilidades{
+    .logos{
+        .card{
+        }
+    }
+}
 
+*/
 }
